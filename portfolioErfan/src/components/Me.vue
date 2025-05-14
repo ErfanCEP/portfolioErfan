@@ -1,5 +1,8 @@
 <template>
-    <div class="container">
+    <div class="container fons_presentation">
+        <div class="text-center m-5 p-5 ">
+            <h1>PRESENTACIÓN</h1>
+        </div>
         <div class="m-5 p-5">
             <h3>
                 Soy Erfan Ribas, un desarrollador web con experiencia en la creación
@@ -14,3 +17,12 @@
         </div>
     </div>
 </template>
+
+<style>
+
+.fons_presentation {
+    background-color: rgb(72, 255, 0);
+    
+} 
+
+</style>

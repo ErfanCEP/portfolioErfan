@@ -12,7 +12,7 @@
 
       <!-- Imagen -->
       <div class="col-md-6 d-flex align-items-center justify-content-center">
-        <img src="" alt="Erfan Ribas" class="img-fluid rounded" />
+        <img :src=" '/img/erfanus.jpg' " alt="Erfan Ribas" class="img-fluid rounded" />
       </div>
     </div>
   </div>

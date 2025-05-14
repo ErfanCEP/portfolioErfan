@@ -5,6 +5,9 @@ import Presentation from './components/Presentation.vue'
 import Navbar from './components/Navbar.vue'
 import Me from './components/Me.vue'
 import Experiencia from './components/Experiencia.vue'
+import Estudios from './components/Estudios.vue'
+// import Proyectos from './components/Proyectos.vue'
+// import Skills from './components/Skills.vue'
 </script>
 
 <template>
@@ -16,6 +19,7 @@ import Experiencia from './components/Experiencia.vue'
       <Presentation/>
       <Me/>
       <Experiencia/>
+      <Estudios/>
     </main>
     </div>
   

@@ -6,20 +6,22 @@ import Navbar from './components/Navbar.vue'
 import Me from './components/Me.vue'
 import Experiencia from './components/Experiencia.vue'
 import Estudios from './components/Estudios.vue'
-// import Proyectos from './components/Proyectos.vue'
-// import Skills from './components/Skills.vue'
+import Proyectos from './components/Proyectos.vue'
+import Skills from './components/Skills.vue'
 </script>
 
 <template>
   <div>
     <header>
-      <Navbar />
+      <Navbar/>
     </header>
     <main>
       <Presentation/>
       <Me/>
       <Experiencia/>
       <Estudios/>
+      <Proyectos/>
+      <Skills/>
     </main>
     </div>
   

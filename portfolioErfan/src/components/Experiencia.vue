@@ -1,39 +1,23 @@
 <template>
-    <div class="container fons_experiencias">
-        <div class="text-center m-5 p-5">
-            <h1>EXPERIENCIA</h1>
-        </div>
-        <div class="row m-5">
-            <div class="col-4 pb-5 ">
-                <h1>Indian Webs</h1>
-                <h4>Desarrollador Web (Prácticas)</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                    Ipsa possimus sit optio vitae quia, doloribus qui blanditiis dolore est ut, 
-                    facilis quod ducimus veritatis dolorum dignissimos ab? Facilis, illo vel!</p>
-            </div>
-            <div class="col-4 ">
-                <h1>Indian Webs 2</h1>
-                <h4>Desarrollador Web (Prácticas)</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                    Ipsa possimus sit optio vitae quia, doloribus qui blanditiis dolore est ut, 
-                    facilis quod ducimus veritatis dolorum dignissimos ab? Facilis, illo vel!</p>
-            </div>
-            <div class="col-4 ">
-                <h1>Indian Webs 3</h1>
-                <h4>Desarrollador Web (Prácticas)</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                    Ipsa possimus sit optio vitae quia, doloribus qui blanditiis dolore est ut, 
-                    facilis quod ducimus veritatis dolorum dignissimos ab? Facilis, illo vel!</p>
-            </div>
-        </div>
+  <div class="container-fluid row d-flex justify-content-center fons_experiencias pb-5">
+    <div>
+        <h1 class="text-center p-5">EXPERIENCIAS</h1>
     </div>
+    <div class="card bg-secondary px-0" style="max-width: 18rem">
+      <h4 class="card text-center p-4 ">Desarrollador Web</h4>
+      <div class="card-body text-warning">
+        <h5 class="card-title">Indian Webs</h5>
+        <p class="card-text">
+          En Indian Webs, he trabajado como desarrollador web, ahí hice las prácticas correspondientes al ciclo de DAW. 
+        </p>
+      </div>
+    </div>
+    
+  </div>
 </template>
 
 <style>
-
 .fons_experiencias {
-    background-color: rgb(255, 72, 0);
-   
+  background-color: rgb(255, 72, 0);
 }
-
 </style>

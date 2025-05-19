@@ -1,11 +1,11 @@
 <template>
     <div class="container-fluid fons_presentation">
-        <div class="">
+        <div class="overlay-dark">
         <div class="text-center pt-5 ">
-            <h1>SOBRE MÍ</h1>
+            <h1 class="text-white">SOBRE MÍ</h1>
         </div>
         <div class="p-5">
-            <h3 class="limit-70 text-center">
+            <h3 class="limit-70 text-center text-white">
                 Soy Erfan Ribas, un desarrollador web con experiencia en la creación
                 de aplicaciones web modernas y eficientes. Me apasiona la tecnología
                 y siempre estoy buscando aprender nuevas habilidades y mejorar
@@ -22,15 +22,18 @@
 
 <style>
 
-.fons_presentation {
-    background-color: rgb(72, 255, 0);
-    
-} 
+/* .fons_presentation {
+    background-image: url('/img/bg2-portfolio.avif');
+    background-size: 100%;
+    max-width: 100%;
+    background-repeat: no-repeat;
+} */
 
 .limit-70 {
   max-width: 70%;
   margin: 0 auto;
   line-height: 1.8;
 }
+
 
 </style>

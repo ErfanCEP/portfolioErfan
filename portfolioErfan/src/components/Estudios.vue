@@ -1,5 +1,5 @@
 <template>
-    <div class="container  text-center">
+    <div class="container text-white  text-center">
         <div class="text-center m-5 p-5">
             <h1>ESTUDIOS</h1>
         </div>

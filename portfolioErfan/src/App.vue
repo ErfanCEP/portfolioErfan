@@ -15,17 +15,32 @@ import Skills from './components/Skills.vue'
     <header>
       <Navbar/>
     </header>
-    <main>
-      <Presentation/>
-      <Me/>
-      <Experiencia/>
-      <Estudios/>
-      <Proyectos/>
-      <Skills/>
+    <main class="">
+      <section id="erfan">
+        <Presentation/>
+      </section>
+      <section id="sobre-mi">
+        <Me/>
+      </section>
+      <section id="proyectos">
+        <Proyectos/>
+      </section>
+      <section id="experiencia">
+        <Experiencia/>
+      </section>
+      <section id="estudios">
+        <Estudios/>
+      </section>
+      <section id="skills">
+        <Skills/>
+      </section>
     </main>
-    </div>
-  
-
+    <footer>
+      <div class="text-center">
+        <p>© 2024 Erfan</p>
+      </div>
+    </footer>
+  </div>
 </template>
 
 <!-- <style scoped>
@@ -56,3 +71,13 @@ header {
   }
 }
 </style> -->
+<style>
+main {
+    background-image: url('/img/bg4-portfolio.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+</style>

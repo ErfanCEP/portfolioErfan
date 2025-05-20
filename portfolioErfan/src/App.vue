@@ -10,6 +10,7 @@ import Proyectos from './components/Proyectos.vue'
 import Skills from './components/Skills.vue'
 </script>
 
+
 <template>
   <div>
     <header>
@@ -35,11 +36,24 @@ import Skills from './components/Skills.vue'
         <Skills/>
       </section>
     </main>
-    <footer>
-      <div class="text-center">
-        <p>© 2024 Erfan</p>
+  <footer>
+  <div class="footer-overlay">
+    <div class="footer-content text-center">
+      <div class="footer-icons mb-2">
+        <a href="https://github.com/" target="_blank" class="footer-icon mx-2" title="GitHub">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://linkedin.com/" target="_blank" class="footer-icon mx-2" title="LinkedIn">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="mailto:erfan@email.com" class="footer-icon mx-2" title="Email">
+          <i class="bi bi-envelope"></i>
+        </a>
       </div>
-    </footer>
+      <p class="mb-0">© 2025 Erfan Ribas · Portfolio</p>
+    </div>
+  </div>
+</footer>
   </div>
 </template>
 
@@ -79,5 +93,39 @@ main {
     background-repeat: no-repeat;
     background-attachment: fixed;
     min-height: 100vh;
+}
+
+footer {
+  position: relative;
+  background-image: url('/img/footer.jfif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 200px; /* Aumenta la altura aquí */
+  color: #fff;
+  font-family: 'Montserrat', Arial, sans-serif;
+  letter-spacing: 1px;
+}
+
+.footer-overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(30, 0, 60, 0.7); /* Morado oscuro semitransparente */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+@media (max-width: 600px) {
+  .footer-content {
+    font-size: 0.9rem;
+  }
+  .footer-icons {
+    font-size: 1.5rem;
+  }
 }
 </style>

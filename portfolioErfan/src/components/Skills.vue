@@ -1,29 +1,84 @@
 <template>
-    <div class="container text-center">
-        <div>
-            <h1>SKILLS</h1>
-        </div>
-        <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-                <div class="col-md-4">
-                    <img :src=" '/img/erfanus.jpg' " class="img-fluid rounded-start" alt="...">
-                </div>
-                <div class="col-md-8">
-                    <div class="card-body">
-                        <h5 class="card-title">skill1</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+  <div class="container text-center">
+    <div>
+      <h1 class="text-white">SKILLS</h1>
     </div>
+    <div class="row p-5 align-items-center justify-content-center">
+    <div class="card fons_card m-3 d-flex justify-content-center align-items-center" style="max-width: 15rem; height: 200px;">
+      <div class="card-body d-flex justify-content-center align-items-center">
+        <img :src="'/img/logos/css.png'" alt="JavaScript Logo" class="img-fluid rounded w-75" />
+      </div>
+    </div>
+        <div class="card fons_card m-3 d-flex justify-content-center align-items-center" style="max-width: 15rem; height: 200px;">
+      <div class="card-body d-flex justify-content-center align-items-center">
+        <img :src="'/img/logos/html.png'" alt="JavaScript Logo" class="img-fluid rounded w-75" />
+      </div>
+    </div>
+        <div class="card fons_card m-3 d-flex justify-content-center align-items-center" style="max-width: 15rem; height: 200px;">
+      <div class="card-body d-flex justify-content-center align-items-center">
+        <img :src="'/img/logos/js.png'" alt="JavaScript Logo" class="img-fluid rounded w-75" />
+      </div>
+    </div>
+        <div class="card fons_card m-3 d-flex justify-content-center align-items-center" style="max-width: 15rem; height: 200px;">
+      <div class="card-body d-flex justify-content-center align-items-center">
+        <img :src="'/img/logos/figma.webp'" alt="JavaScript Logo" class="img-fluid rounded w-75" />
+      </div>
+    </div>
+        <div class="card fons_card m-3 d-flex justify-content-center align-items-center" style="max-width: 15rem; height: 200px;">
+      <div class="card-body d-flex justify-content-center align-items-center">
+        <img :src="'/img/logos/java.png'" alt="JavaScript Logo" class="img-fluid rounded w-75" />
+      </div>
+    </div>
+        <div class="card fons_card m-3 d-flex justify-content-center align-items-center" style="max-width: 15rem; height: 200px;">
+      <div class="card-body d-flex justify-content-center align-items-center">
+        <img :src="'/img/logos/laravel.png'" alt="JavaScript Logo" class="img-fluid rounded w-75" />
+      </div>
+    </div>
+        <div class="card fons_card m-3 d-flex justify-content-center align-items-center" style="max-width: 15rem; height: 200px;">
+      <div class="card-body d-flex justify-content-center align-items-center">
+        <img :src="'/img/logos/wp.png'" alt="JavaScript Logo" class="img-fluid rounded w-75" />
+      </div>
+    </div>
+        <div class="card fons_card m-3 d-flex justify-content-center align-items-center" style="max-width: 15rem; height: 200px;">
+      <div class="card-body d-flex justify-content-center align-items-center">
+        <img :src="'/img/logos/github.png'" alt="JavaScript Logo" class="img-fluid rounded w-75" />
+      </div>
+    </div>
+        <div class="card fons_card m-3 d-flex justify-content-center align-items-center" style="max-width: 15rem; height: 200px;">
+      <div class="card-body d-flex justify-content-center align-items-center">
+        <img :src="'/img/logos/vue.png'" alt="JavaScript Logo" class="img-fluid rounded w-75" />
+      </div>
+    </div>
+        <div class="card fons_card m-3 d-flex justify-content-center align-items-center" style="max-width: 15rem; height: 200px;">
+      <div class="card-body d-flex justify-content-center align-items-center">
+        <img :src="'/img/logos/php.png'" alt="JavaScript Logo" class="img-fluid rounded w-75" />
+      </div>
+    </div>
+        <div class="card fons_card m-3 d-flex justify-content-center align-items-center" style="max-width: 15rem; height: 200px;">
+      <div class="card-body d-flex justify-content-center align-items-center">
+        <img :src="'/img/logos/docker.png'" alt="JavaScript Logo" class="img-fluid rounded w-75" />
+      </div>
+    </div>
+        <div class="card fons_card m-3 d-flex justify-content-center align-items-center" style="max-width: 15rem; height: 200px;">
+      <div class="card-body d-flex justify-content-center align-items-center">
+        <img :src="'/img/logos/mysql.webp'" alt="JavaScript Logo" class="img-fluid rounded w-75" />
+      </div>
+    </div>
+        <div class="card fons_card m-3 d-flex justify-content-center align-items-center" style="max-width: 15rem; height: 200px;">
+      <div class="card-body d-flex justify-content-center align-items-center">
+        <img :src="'/img/logos/bootstrap.png'" alt="JavaScript Logo" class="img-fluid rounded w-75" />
+      </div>
+    </div>
+    </div>
+  </div>
 </template>
+
 
 
 
 <style scoped>
 .img-estudios {
-  max-width: 35%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
 }
 </style>

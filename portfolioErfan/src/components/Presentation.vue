@@ -9,6 +9,10 @@
         <div>
           <h1 class="erfan-ribas text-white">Erfan Ribas</h1>
           <h2 class="text-center text-white">Desarrollador Web</h2>
+          <div class="text-center mt-4">
+
+          <button class="btn btn-primary rounded-5 ">Mi CV</button>
+          </div>
         </div>
       </div>
       <!-- Imagen -->
@@ -63,4 +67,5 @@
   width: 80%; /* o prueba 70% o menos según lo que necesites */
   margin: 0 auto;
 }
+
 </style>
